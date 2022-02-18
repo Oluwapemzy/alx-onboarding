@@ -1,0 +1,9 @@
+Read howManyNumbers
+Set keepTrack=0, sum = 0
+while keepTrack < howManyNumbers THEN
+    Read num
+    keepTrack = keepTrack + 1
+    square = num * num
+    sum = sum + square
+
+Print sum
